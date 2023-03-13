@@ -55,6 +55,23 @@
                 <button class="btnn"><a href="C:/Biblioteca/principal.html">login</a></button>
 
                 <h2>login here</h2>
+                <script>
+		function combrobarClave(){
+			clave1=document.fl.clave1.value
+			clave2=document.fl.clave2.value
+			if (clave1 == "admin" && clave2=="conejo"){
+				alert("Los Datos Coinciden...\n Bienvenido");
+				var href="uno.html"
+				window.location=href;
+			}
+			else{
+				alert("Error las dos claves no son iguales...\n intentelo nuevamente");
+				var href="index.html";
+				window.location=href;
+
+			};
+		}
+	</script>
                 <input type="usuario" name="usuario" placeholder="Enter usuario ">
                 <input type="password" name="" placeholder="enter passsword here">
                 <button class="btnn"><a href="C:/Biblioteca/principal.html">login</a></button>
