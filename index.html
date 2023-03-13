@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>webpage design</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+        <div class="icon">
+            <h2 class="logo">Biblioteca</h2>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="">HOME</a></li>
+                
+            </ul>
+        </div>
+
+        <div class="search">
+            <input type="srch" name="" placeholder="Type To">
+            <a href="C:/Biblioteca/principal.html"> <button class="btn">Search</button> </a>
+        </div>
+        <script>
+        
+        function combrobarClave(){
+            clave1=document.fl.clave1.value
+            clave2=document.fl.clave2.value
+            if (clave1 == "admin" && clave2=="conejo"){
+                alert("Los Datos Coinciden...\n Bienvenido");
+                var href="C:/Biblioteca/principal.html"
+                window.location=href;
+            }
+            else{
+                alert("Error las dos claves no son iguales...\n intentelo nuevamente");
+                var href="C:/Biblioteca/principal.html";
+                window.location=href;
+
+            };
+        }
+    </script>
+    </div>
+    <div class="content">
+        <h1>NUestra biblioteca virtual 
+            &<br><span>Ser feliz con un libro</span> <br></h1>
+        <p class="par">Aveces leer un libro es buena opción para despejar la Mente  
+            <br> Leer es soñar con los ojos abiertos 
+            <br>  siempre imagine que el paraiso seria algun tipo de Biblioteca
+            <br> UN LECTOR VIVE MIL VIDAS ANTES DE MORIR, EL QUE NO LEE SOLO VIVE UNA</p>
+
+            <button class="cn"><a href="C:/Biblioteca/principal.html">JOIN US</a></button>
+
+            <div class="form">
+                <button class="btnn"><a href="C:/Biblioteca/principal.html">login</a></button>
+
+                <h2>login here</h2>
+                <input type="usuario" name="usuario" placeholder="Enter usuario ">
+                <input type="password" name="" placeholder="enter passsword here">
+                <button class="btnn"><a href="C:/Biblioteca/principal.html">login</a></button>
+
+                    <a href="C:/Biblioteca/principal.html"> Sign up </a> Here</a>
+                  
+            </div>
+    </div>
+    </div>
+    </div>
+</div>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
